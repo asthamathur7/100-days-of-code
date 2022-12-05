@@ -1,0 +1,33 @@
+Input Format
+
+The first line of input contains an integer  representing the total number of test cases. Each test case contains a string and an integer separated by a space on a single line in the following format:
+
+UserRole MoneySpend
+Constraints
+
+
+
+
+Name contains only lowercase English letters.
+
+Output Format
+
+Based on the user role and budget outputs, output the contents of the certain method. If the amount of money spent is over the budget limit, then output Budget Limit Over.
+
+Sample Input
+
+3
+SENIOR 75
+JUNIOR 45
+SENIOR 40
+Sample Output
+
+Senior Member
+Spend: 75
+Budget Left: 25
+Junior Member
+Spend: 45
+Budget Left: 5
+Senior Member
+Spend: 40
+Budget Left: 60
